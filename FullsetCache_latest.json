@@ -1,145 +1,49 @@
 {
   "meta": {
-    "generated_at": "2025-12-26 14:05:34",
-    "last_confirmed_month": "2026-04",
-    "source": "IntegratedReport.json"
+    "generated_at": "2026-01-09 14:35:23",
+    "source": "IntegratedReport.json",
+    "display_only": true
   },
   "pl": {
     "months": {
       "2025-05": {
-        "revenue": 8767652,
-        "cogs": 1375970,
-        "sga": 7983813,
-        "op_profit": -592131,
-        "non_op_income": 0,
-        "non_op_expense": 0,
-        "pretax_profit": -592131
+        "items": {
+          "4101": 5174880,
+          "4102": 2804570,
+          "4103": 2327168,
+          "4104": 211960,
+          "4106": 1323650,
+          "9523": 10396898,
+          "9535": 1,
+          "9536": 4,
+          "9560": 72,
+          "9561": 12,
+          "9563": 9
+        },
+        "updated_at": "2025-12-25T11:07:24"
       },
-      "2025-06": {
-        "revenue": 9364992,
-        "cogs": 1375356,
-        "sga": 7006877,
-        "op_profit": 982759,
-        "non_op_income": 217044,
-        "non_op_expense": 391127,
-        "pretax_profit": 808676
-      },
-      "2025-07": {
-        "revenue": 10510306,
-        "cogs": 1401103,
-        "sga": 7156869,
-        "op_profit": 1952334,
-        "non_op_income": 585649,
-        "non_op_expense": 454124,
-        "pretax_profit": 2083859
-      },
-      "2025-08": {
-        "revenue": 10588036,
-        "cogs": 1507676,
-        "sga": 6963403,
-        "op_profit": 2116957,
-        "non_op_income": 2486,
-        "non_op_expense": 451988,
-        "pretax_profit": 1667671
-      },
-      "2025-09": {
-        "revenue": 10886000,
-        "cogs": 1075356,
-        "sga": 8256877,
-        "op_profit": 1553767,
-        "non_op_income": 217044,
-        "non_op_expense": 1487327,
-        "pretax_profit": 283484
-      },
-      "2025-10": {
-        "revenue": 10986000,
-        "cogs": 1075356,
-        "sga": 7956877,
-        "op_profit": 1953767,
-        "non_op_income": 217044,
-        "non_op_expense": 391127,
-        "pretax_profit": 1779684
-      },
-      "2025-11": {
-        "revenue": 11086000,
-        "cogs": 1075356,
-        "sga": 8256877,
-        "op_profit": 1753767,
-        "non_op_income": 217044,
-        "non_op_expense": 391127,
-        "pretax_profit": 1579684
-      },
-      "2025-12": {
-        "revenue": 11186000,
-        "cogs": 1075356,
-        "sga": 8256877,
-        "op_profit": 1853767,
-        "non_op_income": 217044,
-        "non_op_expense": 391127,
-        "pretax_profit": 1679684
-      },
-      "2026-01": {
-        "revenue": 11286000,
-        "cogs": 1075356,
-        "sga": 8256877,
-        "op_profit": 1953767,
-        "non_op_income": 217044,
-        "non_op_expense": 391127,
-        "pretax_profit": 1779684
-      },
-      "2026-02": {
-        "revenue": 11386000,
-        "cogs": 1075356,
-        "sga": 8256877,
-        "op_profit": 2053767,
-        "non_op_income": 217044,
-        "non_op_expense": 391127,
-        "pretax_profit": 1879684
-      },
-      "2026-03": {
-        "revenue": 11486000,
-        "cogs": 1075356,
-        "sga": 8256877,
-        "op_profit": 2153767,
-        "non_op_income": 217044,
-        "non_op_expense": 391127,
-        "pretax_profit": 1979684
-      },
-      "2026-04": {
-        "revenue": 11586000,
-        "cogs": 1075356,
-        "sga": 9756877,
-        "op_profit": 753767,
-        "non_op_income": 217044,
-        "non_op_expense": 391127,
-        "pretax_profit": 579684
-      }
-    },
-    "total": {
-      "revenue": 130100030,
-      "cogs": 13656980,
-      "sga": 99185365,
-      "op_profit": 17699572,
-      "non_op_income": 2717594,
-      "non_op_expense": 6973762,
-      "pretax_profit": 13443404
+      "2025-10": {}
     }
   },
   "bs": {
-    "opening_retained_earnings": -4175608,
-    "pretax_profit": 13443404,
-    "closing_retained_earnings_forecast": 4818863,
-    "opening_cash": 14500000,
-    "closing_cash_forecast": 23102837
+    "months": {
+      "2025-05": {
+        "items": {
+          "1210": 27685838,
+          "9541": 911354,
+          "9544": 13879271,
+          "9554": 2560169,
+          "9555": 2560169
+        },
+        "updated_at": "2025-12-25T11:07:24"
+      },
+      "2025-10": {}
+    }
   },
   "cf": {
-    "annual": {
-      "operating_cf": 23439037,
-      "investing_cf": -2400000,
-      "financing_cf": -12436200,
-      "opening_cash": 14500000,
-      "closing_cash": 23102837
-    }
+    "months": {}
+  },
+  "cache_meta": {
+    "last_updated_month": "2025-10"
   }
-
 }
