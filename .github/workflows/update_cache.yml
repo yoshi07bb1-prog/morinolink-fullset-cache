@@ -1,0 +1,32 @@
+name: Update Fullset Cache
+
+on:
+  push:
+    paths:
+      - 'FullsetCache_latest.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet FullsetCache_latest.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add FullsetCache_latest.json
+          git commit -m "Update FullsetCache_latest.json"
+          git push
