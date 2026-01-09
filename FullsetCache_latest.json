@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-09 14:35:23",
+    "generated_at": "2026-01-09 16:39:25",
     "source": "IntegratedReport.json",
     "display_only": true
   },
@@ -46,4 +46,4 @@
   "cache_meta": {
     "last_updated_month": "2025-10"
   }
-  }
+}
