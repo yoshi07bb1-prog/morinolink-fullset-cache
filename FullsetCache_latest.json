@@ -1,8 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-01-09 16:39:25",
+    "generated_at": "2026-01-12 14:50:34",
     "source": "IntegratedReport.json",
-    "display_only": true
+    "display_only": true,
+    "integrated_generated_at": "2026-01-12 14:50:30",
+    "last_confirmed_month": null
   },
   "pl": {
     "months": {
@@ -13,37 +15,45 @@
           "4103": 2327168,
           "4104": 211960,
           "4106": 1323650,
-          "9523": 10396898,
-          "9535": 1,
-          "9536": 4,
-          "9560": 72,
-          "9561": 12,
-          "9563": 9
+          "9523": 10396898
         },
         "updated_at": "2025-12-25T11:07:24"
       },
-      "2025-10": {}
+      "2025-10": {
+        "items": {
+          "...": "←10月実績のみ"
+        },
+        "updated_at": "..."
+      }
     }
   },
   "bs": {
     "months": {
       "2025-05": {
         "items": {
-          "1210": 27685838,
-          "9541": 911354,
           "9544": 13879271,
+          "9541": 911354,
           "9554": 2560169,
           "9555": 2560169
         },
         "updated_at": "2025-12-25T11:07:24"
       },
-      "2025-10": {}
+      "2025-10": {
+        "items": {
+          "...": "←10月BS実績"
+        },
+        "updated_at": "..."
+      }
     }
   },
   "cf": {
-    "months": {}
+    "months": {
+      "2025-10": {}
+    }
   },
+  "business_unit_sales": null,
   "cache_meta": {
-    "last_updated_month": "2025-10"
+    "last_updated_month": null,
+    "display_ready": true
   }
 }
