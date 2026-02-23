@@ -1,89 +1,16 @@
 {
   "meta": {
-    "schema_role": "canonical_fullset",
-    "schema_version": "v1.0",
-    "fiscal_year": "令和7年度（2025年5月〜2026年4月）",
-    "last_actual_month": "2025-09",
-    "generated_by": "GPTMaster_Executive",
-    "generated_at_jst": "2026-01-14T17:20:00+09:00",
-    "notes": "IntegratedReport.json は完成形フルセットのみを保持する canonical 正本。OCRは材料生成、判断と再構築は Executive に一本化。",
-    "last_updated_month": "2025-05",
-    "last_updated_at": "2026-01-19T14:30:58.483282+09:00",
-    "last_updated_at_jst": "2026-01-22 11:42:17 JST",
-    "policy_mode": "EXECUTIVE_ACTUAL_ONLY",
-    "source_pdf": "令和7年11月BS・PL財務報告.pdf",
-    "source_pdf_fullpath": null,
-    "source_month_evidence": null,
-    "last_confirmed_month": "2025-05"
+    "source": "IntegratedReport.json",
+    "generated_at_jst": "2026-02-23 10:13:10",
+    "display_only": true
   },
-  "pl": {
-    "unit": "JPY",
-    "months": {
-      "2025-11": {
-        "4101": 1543660,
-        "4102": 2466440,
-        "4103": 2364680,
-        "4104": 211960,
-        "4106": 1666950,
-        "9523": 10312530,
-        "販売費及び一般管理費": 142489800,
-        "営業利益": 155495746,
-        "営業外費用": 2560169,
-        "税引前当期純利益": 5800205,
-        "営業外収益": 911354
-      },
-      "2025-05": {
-        "_status": "EXTRACTED"
-      }
-    },
-    "total": {
-      "revenue": 130100030,
-      "cost_of_sales": 13656980,
-      "sg_and_a": 99185365,
-      "operating_income": 17699572,
-      "non_operating_income": 2717594,
-      "non_operating_expenses": 6973762,
-      "pretax_income": 13443404
-    }
+  "latest_actual": {
+    "month_key": "2025-11",
+    "source_pdf": "D:\\OneDrive - 株式会社もりの灯台\\月次実績フォルダ\\テスト令和7年11月BS・PL財務報告.pdf",
+    "updated_at_jst": "2026-02-23 10:13:10"
   },
-  "bs": {
-    "opening": {
-      "retained_earnings": -4175608,
-      "cash": 14500000
-    },
-    "closing_forecast": {
-      "retained_earnings": 4818863,
-      "cash": 23102837
-    },
-    "months": {
-      "2025-11": {
-        "9544": 16243951,
-        "1210": 32392620,
-        "9541": 3389246,
-        "9554": 4389246,
-        "9555": 160032625
-      },
-      "2025-05": {
-        "_status": "EXTRACTED"
-      }
-    }
-  },
-  "cf": {
-    "operating_cf": 23439037,
-    "investing_cf": -2400000,
-    "financing_cf": -12436200,
-    "opening_cash": 14500000,
-    "closing_cash": 23102837,
-    "months": {
-      "2025-11": {}
-    }
-  },
-  "business_unit_sales": null,
   "cache_meta": {
-    "generated_at_jst": "2026-01-22 11:42:17 JST",
-    "generator": "GPTMaster_Executive.py",
-    "generator_mode": "EXECUTIVE_ACTUAL_ONLY",
-    "integrated_last_updated_month": "2025-05",
-    "last_confirmed_month": "2025-05"
+    "last_updated_at_jst": "2026-02-05 17:18:01",
+    "last_updated_month": "2025-11"
   }
 }
