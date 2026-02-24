@@ -4,14 +4,36 @@
     "generated_at_jst": "",
     "display_only": true
   },
-  "pl": {},
-  "bs": {},
+  "pl": {
+    "営業利益": 2037230,
+    "税引前当期純利益": 1607169,
+    "純売上高": 10312530,
+    "販売費及び一般管理費": 7092697
+  },
+  "bs": {
+    "現金及び預金": 19697568,
+    "繰越利益剰余金": 3389246,
+    "負債及び純資産の部": 160032625
+  },
   "cf": {},
-  "latest_actual": {},
+  "latest_actual": {
+    "month_key": "2025-11",
+    "pl": {
+      "営業利益": 2037230,
+      "税引前当期純利益": 1607169,
+      "純売上高": 10312530,
+      "販売費及び一般管理費": 7092697
+    },
+    "bs": {
+      "現金及び預金": 19697568,
+      "繰越利益剰余金": 3389246,
+      "負債及び純資産の部": 160032625
+    }
+  },
   "cache_meta": {
-    "last_updated_at_jst": "",
-    "last_updated_month": "",
-    "distribution_run_at_jst": "2026-02-24 12:08:29",
-    "distribution_run_id": "0bfe51f704094fe68a849e3c497aae7d"
+    "last_updated_at_jst": "2026-02-24 12:50:19",
+    "last_updated_month": "2025-11",
+    "distribution_run_at_jst": "2026-02-24 12:50:30",
+    "distribution_run_id": "09fdb412638e4822a3eef55310f00479"
   }
 }
