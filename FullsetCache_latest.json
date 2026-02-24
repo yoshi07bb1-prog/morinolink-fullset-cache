@@ -1,16 +1,17 @@
 {
   "meta": {
     "source": "IntegratedReport.json",
-    "generated_at_jst": "2026-02-23 10:13:10",
+    "generated_at_jst": "",
     "display_only": true
   },
-  "latest_actual": {
-    "month_key": "2025-11",
-    "source_pdf": "D:\\OneDrive - 株式会社もりの灯台\\月次実績フォルダ\\テスト令和7年11月BS・PL財務報告.pdf",
-    "updated_at_jst": "2026-02-23 10:13:10"
-  },
+  "pl": {},
+  "bs": {},
+  "cf": {},
+  "latest_actual": {},
   "cache_meta": {
-    "last_updated_at_jst": "2026-02-05 17:18:01",
-    "last_updated_month": "2025-11"
+    "last_updated_at_jst": "",
+    "last_updated_month": "",
+    "distribution_run_at_jst": "2026-02-24 12:08:29",
+    "distribution_run_id": "0bfe51f704094fe68a849e3c497aae7d"
   }
 }
