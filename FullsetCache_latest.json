@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "IntegratedReport.json",
-    "generated_at_jst": "",
+    "generated_at_jst": "2026-02-24 14:23:58",
     "display_only": true
   },
   "pl": {
@@ -33,7 +33,7 @@
   "cache_meta": {
     "last_updated_at_jst": "2026-02-24 12:50:19",
     "last_updated_month": "2025-11",
-    "distribution_run_at_jst": "2026-02-24 12:50:30",
-    "distribution_run_id": "09fdb412638e4822a3eef55310f00479"
+    "distribution_run_at_jst": "2026-02-24 14:23:58",
+    "distribution_run_id": "4147bdd4624b4b12b74c3bafc2ca9bd9"
   }
 }
