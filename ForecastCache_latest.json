@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "schema": "MorinoLink.ForecastCache.v1",
+    "generated_at_jst": "2026-03-05 11:43:19",
+    "display_only": true,
+    "source": {
+      "month_key": "2026-01",
+      "fullset_cache_path": "D:\\MorinoLink\\fullset\\FullsetCache_latest.json",
+      "source_pdf": "D:\\OneDrive - 株式会社もりの灯台\\月次実績フォルダ\\令和8年1月BS.PL財務報告.pdf"
+    },
+    "engine": {
+      "name": "RFE_v1",
+      "python": "C:\\Users\\yoshi\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"
+    }
+  },
+  "actual": {
+    "month_key": "2026-01",
+    "pl": {
+      "sales": 10239800.0,
+      "sga": 7801688.0,
+      "operating_profit": 1197471.0,
+      "pretax_profit": 1035225.0
+    },
+    "business_breakdown": {
+      "4101": {
+        "name": "定期巡回",
+        "amount": 5139920
+      },
+      "4102": {
+        "name": "通所介護",
+        "amount": 2499760
+      },
+      "4103": {
+        "name": "有料老人ホーム",
+        "amount": 2487500
+      },
+      "4104": {
+        "name": "自費収入",
+        "amount": 0
+      },
+      "4106": {
+        "name": "在宅看護",
+        "amount": 1111150
+      },
+      "9523": {
+        "name": "合計",
+        "amount": 10239800
+      }
+    },
+    "bs": {
+      "cash": 21326317.0,
+      "retained_earnings": 5864695.0
+    }
+  },
+  "analysis": {
+    "note": "Owner-safe: deterministic v1, no seasonality, no external calls."
+  },
+  "forecast": {
+    "next_month": {
+      "month_key": "2026-02",
+      "sales": 10239800.0,
+      "operating_profit": 1197471.0,
+      "pretax_profit": 1035225.0
+    },
+    "fiscal_year_end_projection": {
+      "sales": 10239800.0,
+      "operating_profit": 1197471.0,
+      "pretax_profit": 1035225.0,
+      "note": "v1 rough placeholder (no planning/seasonality)."
+    }
+  },
+  "risk_flags": [],
+  "assumptions": {
+    "sales_multiplier": 1.0,
+    "op_multiplier": 1.0,
+    "pretax_multiplier": 1.0
+  }
+}
