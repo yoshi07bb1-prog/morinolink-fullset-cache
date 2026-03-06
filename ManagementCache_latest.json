@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_jst": "2026-03-06 08:50:24",
+    "generated_at_jst": "AUTO",
     "system": {
       "name": "MorinoLink ManagementCore",
       "mode": "display_only",
@@ -8,60 +8,114 @@
     },
     "display_only": true
   },
+
+  "trigger_context": {
+    "cache_role": "management",
+
+    "primary_triggers": [
+      "経営分析",
+      "経営診断",
+      "KPI",
+      "戦略分析",
+      "経営レポート",
+      "経営リスク"
+    ],
+
+    "blocked_triggers": [
+      "今期フルセット表示",
+      "フルセット表示",
+      "最新フルセット",
+      "来月予測",
+      "期末予測"
+    ],
+
+    "linked_actions": [
+      "getFullsetCacheLatest",
+      "getForecastCacheLatest"
+    ]
+  },
+
   "facts_summary": {
-    "latest_month_key": "2026-01",
+    "latest_month_key": "",
     "has_forecast_latest": true,
     "has_forecast_history": true
   },
+
   "kpi": {
-    "latest_month_key": "2026-01",
-    "sales_yen": 10239800,
-    "op_profit_yen": 1197471,
-    "pretax_profit_yen": 1035225,
-    "cash_yen": 21326317,
-    "retained_earnings_yen": 5864695,
-    "op_margin": 0.11694281138303482,
-    "pretax_margin": 0.1010981659798043
+    "latest_month_key": "",
+    "sales_yen": 0,
+    "op_profit_yen": 0,
+    "pretax_profit_yen": 0,
+    "cash_yen": 0,
+    "retained_earnings_yen": 0,
+    "op_margin": 0,
+    "pretax_margin": 0
   },
+
+  "trend": {
+    "sales_trend": "",
+    "profit_trend": "",
+    "margin_trend": ""
+  },
+
   "risks": [
     {
-      "level": "INFO",
-      "code": "CF_EMPTY",
-      "message": "CF が空です（仕様・未実装・未投入のいずれか）。"
+      "level": "",
+      "code": "",
+      "message": ""
     }
   ],
+
+  "insight": {
+    "summary": "",
+    "notes": []
+  },
+
+  "executive_summary": {
+    "current_status": "",
+    "next_month_outlook": "",
+    "fiscal_year_end_outlook": "",
+    "top_risks": [],
+    "priority_actions": [],
+    "decision_note": "最終判断は島田善信オーナーが行う"
+  },
+
   "evidence": {
-    "generated_at_jst": "2026-03-06 08:50:24",
+    "generated_at_jst": "AUTO",
     "system": {
       "name": "MorinoLink ManagementCore",
       "mode": "display_only",
       "timezone": "Asia/Tokyo"
     },
+
     "inputs": {
-      "fullset_cache_sha256": "049ec497e6bbd88928d6282c37007a46d03efde192599bacf8cb676274a2c936",
-      "forecast_latest_sha256": "cf6e9839c0071e339a7f8b8f666d0f38346021108edfaddb0f486923c52fffb3"
+      "fullset_cache_sha256": "",
+      "forecast_latest_sha256": ""
     },
+
     "kpi": {
-      "latest_month_key": "2026-01",
-      "sales_yen": 10239800,
-      "op_profit_yen": 1197471,
-      "pretax_profit_yen": 1035225,
-      "cash_yen": 21326317,
-      "retained_earnings_yen": 5864695,
-      "op_margin": 0.11694281138303482,
-      "pretax_margin": 0.1010981659798043
+      "latest_month_key": "",
+      "sales_yen": 0,
+      "op_profit_yen": 0,
+      "pretax_profit_yen": 0,
+      "cash_yen": 0,
+      "retained_earnings_yen": 0,
+      "op_margin": 0,
+      "pretax_margin": 0
     },
+
     "risks": [
       {
-        "level": "INFO",
-        "code": "CF_EMPTY",
-        "message": "CF が空です（仕様・未実装・未投入のいずれか）。"
+        "level": "",
+        "code": "",
+        "message": ""
       }
     ],
+
     "decision": {
       "final_decider": "島田善信",
       "ai_role": "analysis_only",
-      "note": "本出力は提案・警告・選択肢提示であり、最終判断は島田善信のみ。"
+      "note": "AIは分析・警告・選択肢提示のみ行う"
     }
   }
 }
