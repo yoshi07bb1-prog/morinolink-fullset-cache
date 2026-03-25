@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_jst": "2026-03-25 13:30:07",
+    "generated_at_jst": "2026-03-25 16:22:45",
     "system": {
       "name": "MorinoLink ManagementCore",
       "mode": "display_only",
@@ -9,19 +9,19 @@
     "display_only": true
   },
   "facts_summary": {
-    "latest_month_key": "2026-01",
+    "latest_month_key": "2026-02",
     "has_forecast_latest": true,
     "has_forecast_history": true
   },
   "kpi": {
-    "latest_month_key": "2026-01",
-    "sales_yen": 10239800,
-    "op_profit_yen": 1197471,
-    "pretax_profit_yen": 1035225,
-    "cash_yen": 21326317,
-    "retained_earnings_yen": 5864695,
-    "op_margin": 0.11694281138303482,
-    "pretax_margin": 0.1010981659798043
+    "latest_month_key": "2026-02",
+    "sales_yen": 11379070,
+    "op_profit_yen": 3021654,
+    "pretax_profit_yen": 2602402,
+    "cash_yen": 23319400,
+    "retained_earnings_yen": 8466968,
+    "op_margin": 0.26554489953924176,
+    "pretax_margin": 0.22870076377067722
   },
   "risks": [
     {
@@ -31,25 +31,25 @@
     }
   ],
   "evidence": {
-    "generated_at_jst": "2026-03-25 13:30:07",
+    "generated_at_jst": "2026-03-25 16:22:45",
     "system": {
       "name": "MorinoLink ManagementCore",
       "mode": "display_only",
       "timezone": "Asia/Tokyo"
     },
     "inputs": {
-      "fullset_cache_sha256": "3a58f5caad0637da759655977f06b436ed0748fe93c3d29309f44d97da9cb821",
-      "forecast_latest_sha256": "e18b845d1c1a01694c81cd61e202ef7413805a0f39a902a788759b31683472c4"
+      "fullset_cache_sha256": "c34a2f4b4eb85725271cc6886d62c3c998b3b32a9686faed89e529fd97284dfa",
+      "forecast_latest_sha256": "23aef48de72b70fa369027c9c8a4399f2a2edf10977f3ff1deeb9cb4115ddb11"
     },
     "kpi": {
-      "latest_month_key": "2026-01",
-      "sales_yen": 10239800,
-      "op_profit_yen": 1197471,
-      "pretax_profit_yen": 1035225,
-      "cash_yen": 21326317,
-      "retained_earnings_yen": 5864695,
-      "op_margin": 0.11694281138303482,
-      "pretax_margin": 0.1010981659798043
+      "latest_month_key": "2026-02",
+      "sales_yen": 11379070,
+      "op_profit_yen": 3021654,
+      "pretax_profit_yen": 2602402,
+      "cash_yen": 23319400,
+      "retained_earnings_yen": 8466968,
+      "op_margin": 0.26554489953924176,
+      "pretax_margin": 0.22870076377067722
     },
     "risks": [
       {
