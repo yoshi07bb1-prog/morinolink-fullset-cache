@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_jst": "2026-04-01 11:08:47",
+    "generated_at_jst": "2026-04-01 15:54:34",
     "system": {
       "name": "MorinoLink ManagementCore",
       "mode": "display_only",
@@ -31,7 +31,7 @@
     }
   ],
   "evidence": {
-    "generated_at_jst": "2026-04-01 11:08:47",
+    "generated_at_jst": "2026-04-01 15:54:34",
     "system": {
       "name": "MorinoLink ManagementCore",
       "mode": "display_only",
@@ -39,7 +39,7 @@
     },
     "inputs": {
       "fullset_cache_sha256": "c34a2f4b4eb85725271cc6886d62c3c998b3b32a9686faed89e529fd97284dfa",
-      "forecast_latest_sha256": "e0a5216a8b1f2472260014a682cb290d3c801078508caed5edb0c79cc19cc1ed"
+      "forecast_latest_sha256": "8f167d5232cb1c5c78b4cfbb533db41c5948458ab0b721bb7f86e0480672f7a1"
     },
     "kpi": {
       "latest_month_key": "2026-02",
