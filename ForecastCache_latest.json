@@ -1,12 +1,12 @@
 {
   "meta": {
     "schema": "MorinoLink.ForecastCache.v1",
-    "generated_at_jst": "2026-04-16 11:44:31",
+    "generated_at_jst": "2026-04-17 12:04:39",
     "display_only": true,
     "source": {
-      "month_key": "2026-02",
+      "month_key": "2026-03",
       "fullset_cache_path": "D:\\MorinoLink\\fullset\\FullsetCache_latest.json",
-      "source_pdf": "D:\\OneDrive - 株式会社もりの灯台\\月次実績フォルダ\\令和8年2月BS・PL財務報告書.pdf"
+      "source_pdf": "D:\\OneDrive - 株式会社もりの灯台\\月次実績フォルダ\\令和8年3月BS.PL財務報告.pdf"
     },
     "engine": {
       "name": "RFE_v1",
@@ -14,25 +14,25 @@
     }
   },
   "actual": {
-    "month_key": "2026-02",
+    "month_key": "2026-03",
     "pl": {
-      "sales": 11379070.0,
-      "sga": 7286035.0,
-      "operating_profit": 3021654.0,
-      "pretax_profit": 2602402.0
+      "sales": 11595330.0,
+      "sga": 7737129.0,
+      "operating_profit": 2630442.0,
+      "pretax_profit": 2562293.0
     },
     "business_breakdown": {
       "4101": {
         "name": "定期巡回",
-        "amount": 6079560
+        "amount": 6109200
       },
       "4102": {
         "name": "通所介護",
-        "amount": 2875570
+        "amount": 2939620
       },
       "4103": {
         "name": "有料老人ホーム",
-        "amount": 2317400
+        "amount": 2419230
       },
       "4104": {
         "name": "自費収入",
@@ -40,16 +40,16 @@
       },
       "4106": {
         "name": "在宅看護",
-        "amount": 1192570
+        "amount": 1589680
       },
       "9523": {
         "name": "合計",
-        "amount": 11379070
+        "amount": 11595330
       }
     },
     "bs": {
-      "cash": 23319400.0,
-      "retained_earnings": 8466968.0
+      "cash": 23268676.0,
+      "retained_earnings": 11066976.0
     }
   },
   "analysis": {
@@ -57,15 +57,15 @@
   },
   "forecast": {
     "next_month": {
-      "month_key": "2026-03",
-      "sales": 11379070.0,
-      "operating_profit": 3021654.0,
-      "pretax_profit": 2602402.0
+      "month_key": "2026-04",
+      "sales": 11595330.0,
+      "operating_profit": 2630442.0,
+      "pretax_profit": 2562293.0
     },
     "fiscal_year_end_projection": {
-      "sales": 11379070.0,
-      "operating_profit": 3021654.0,
-      "pretax_profit": 2602402.0,
+      "sales": 11595330.0,
+      "operating_profit": 2630442.0,
+      "pretax_profit": 2562293.0,
       "note": "v1 rough placeholder (no planning/seasonality)."
     }
   },
